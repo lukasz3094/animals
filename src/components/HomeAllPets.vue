@@ -23,11 +23,12 @@
               name: 'pet',
               params: { name: pet.name },
             }"
+            class="row"
           >
-            <div class="col-3 pe-5">
+            <div class="col-3 pe-2">
               <img class="rounded" :src="pet.photo" />
             </div>
-            <div class="col-9 ps-5 text-start">
+            <div class="col-6 ps-2 text-center">
               <div class="row">
                 <span class="h2">{{ pet.name }}</span>
               </div>
@@ -160,8 +161,8 @@ export default {
 </script>
 <style scoped>
 img {
-  width: 10vw;
-  height: 7vw;
+  width: 120px;
+  height: 90px;
 }
 .hover:hover {
   cursor: pointer;
